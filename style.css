@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.container {
+    background-image: url(colorOS16.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 2px solid pink;
+    border-radius: 20px;
+    background-color: blue;
+    width: 300px;
+    height: 570px;
+    margin: 10px auto;
+
+
+}
+
+nav {
+    margin-left: 10px;
+    color: white;
+}
+
+.header {
+    border-radius: 20px;
+    color: white;
+    padding-top: 64px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    gap: 12vw;
+}
+
+.GoogleIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 52px;
+
+}
+
+.googleBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 40px;
+    border-radius: 20px;
+    padding: 0 15px;
+    box-sizing: border-box;
+    background-color: grey;
+    color: white;
+
+}
+
+.apk {
+    margin-top: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.box {
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 7px 7px 8px gray;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    width: 50px;
+    height: 22px;
+    border: 1px solid #ccc;
+    border-radius: 16px;
+    padding: 0 10px;
+    gap: 5px;
+    margin: 20px auto 0;
+
+}
+
+.search-container input {
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 12px;
+    color: white;
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+}
+
+.lineBar {
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Svg {
+    width: 100px;
+    border: 3px solid white;
+    border-radius: 3px;
+}
