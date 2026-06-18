@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: black;
+    background-color: #0d0d0d;
 }
 
 .container {
@@ -19,6 +19,16 @@ body {
     height: 570px;
     margin: 10px auto;
 
+    box-shadow: 0 0px 50px lab(47.27% 72.21 58.65);
+    transition: 2s;
+
+}
+
+.container:hover {
+    transform: translateY(-8px);
+    box-shadow:
+        0 20px 40px rgba(0, 0, 0, 0.9),
+        0 0 25px rgba(0, 150, 255, 0.3);
 
 }
 
@@ -67,7 +77,11 @@ nav {
     justify-content: center;
     align-items: center;
     gap: 20px;
+
 }
+
+
+
 
 .box {
     background-color: white;
@@ -75,7 +89,16 @@ nav {
     height: 40px;
     border: 1px solid black;
     border-radius: 10px;
-    box-shadow: 7px 7px 8px gray;
+}
+
+.box:hover {
+    cursor: pointer;
+    transform: translateY(-8px);
+    box-shadow:
+        0 20px 40px #f80000e6,
+        0 0 25px hsl(0, 98%, 26%);
+
+
 }
 
 .search-container {
@@ -102,15 +125,18 @@ nav {
 }
 
 .lineBar {
-    margin-top: 24px;
+    margin-top: 22px;
     display: flex;
     justify-content: center;
     align-items: center;
 
+
 }
+
 
 .Svg {
     width: 100px;
     border: 3px solid white;
     border-radius: 3px;
+
 }
